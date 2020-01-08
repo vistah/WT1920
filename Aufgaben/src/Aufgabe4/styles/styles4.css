@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+}
+@media screen and (min-width: 720px)
+{
+	body {
+    background-color: #0082D1; 
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+	}
+	 #links {
+        background-color: #58FA82;
+        flex: 1;
+        color:white;
+        margin-left: 10px;
+        
+    }
+    #mitte {
+        background-color: #0B6121;
+        font-size: 1.2rem;
+        flex: 4;
+        color:white;
+    }
+     #rechts {
+        background-color: #04B431;
+        flex:2;
+        color:white;
+        margin-right: 10px;
+        
+    }
+     #myFlexBox {
+        display: flex;
+    }
+    #oben, #unten {
+        background-color:#CEF6D8 ;
+        font-size: 1.2rem;
+        margin-left: 10px;
+        margin-right:10px;
+    }
+
+}
+
+
+@media screen and (max-width:720px){
+	body
+	{
+		background-color: #FE642E;
+		color:white;
+	}
+	#oben, #unten
+	{
+		background-color: #0000FF;
+	}
+   
+    #links
+    {
+    	background-color: #819FF7;
+    }
+    #mitte
+    {
+    	background-color: #0404B4;
+    }
+    #rechts
+    {
+    	background-color:#0B0B61;
+    }
+}
+
+
+
