@@ -1,0 +1,55 @@
+@charset "UTF-8";
+footer
+	{
+		background-color: #23204d;
+		margin:50px;
+		padding-left: 50px;
+		margin-bottom:-100px;
+		
+	}
+	table 
+	{
+		margin-left: 700px;
+		color: white;
+		font-weight: 100;
+		margin-bottom:-100px;
+	}
+	table th
+	{
+		padding-left:20px;
+		padding-right: 20px;
+		font-size: medium;
+		
+		
+	}
+	table a:hover
+	{
+	 text-decoration: none;
+	}
+	table a
+	{
+	font-weight: lighter;
+	}
+	
+	 .footer-part {
+	 background-color: #c6c2db; /* hell-lila  */
+	 margin-top:-120px;
+ 	 min-height:175px;
+ 	padding-top:10px;
+ 	font-weight: normal;
+	 }
+	 .footer-part-title {
+ 	 font-size:18px;
+ 	 
+	 }
+	
+	.ng-scope
+	{
+		
+		color:black;
+		background-color:#4d4a6f ; /* dunkel-lila */ 
+		margin-top: 50px;
+		min-height: 200px;
+		padding: 38px;
+		border-radius: 0 5px 5px 0;
+	}
